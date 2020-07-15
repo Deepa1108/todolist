@@ -1,0 +1,89 @@
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-left: 500px;
+    font-style: oblique;
+    color: tomato;
+}
+h1::before  {
+  content: "\1F4DD";
+}
+
+#box {
+    align-items: center;
+    margin-left: 400px;
+    width: 250px;
+    height: 40px;
+
+}
+
+.button {
+    padding: 10px;
+    width: 25%;
+    background: #401077;
+    color:tomato;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+#counter {
+  margin-top: 40px;
+  margin-left: 400px;
+  font-style: oblique;
+  font-size: 20px;
+
+}
+
+  #itemcount {
+  
+    margin-right: 20px;
+    color: red;
+  }
+
+  #tottask {
+    
+    color: red;
+    
+  }
+
+  ul li {
+    symbols: "\1F431";
+      position:relative;
+      margin-left: 80px;
+      margin-bottom: 15px;
+      transition: 0.2s;
+      font-size: 20px;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+       user-select: none;
+  }
+
+  ul li.check {
+    background: #888;
+    color: #fff;
+    box-shadow: black;
+    width: 500px;
+    margin-left: 75px;
+    
+    
+
+  }
+
+  ul li.check::before {
+    content: "\2714";
+    position: right;
+    border-style: solid;
+    border-width: 0 0 0 0;
+    top: 10px;
+    left: 10px;
+    transform: rotate(10deg);
+    height: 15px;
+    width: 7px;
+  }

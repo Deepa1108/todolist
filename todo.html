@@ -1,0 +1,28 @@
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="todo.css">
+    </head>
+    
+    <body>
+        
+        <div class="header">
+            <h1>My todo list</h1>
+        
+        <input type="text" id="box" placeholder="Enter task....">
+        <span class="button" onclick="newtask(); counter()">Add task</span> 
+        </div>
+        <div id="counter">
+            <span>Completed Task:<span id="itemcount">1</span></span>
+            <span>Incompleted Task:<span id="tottask">2</span></span>
+        </div>
+        <ul id="ulist">
+            <li class = "check" onclick="unselect()">Medicine at 2:00</li>
+            <li>Meeting</li>
+            <li>Laundry</li>
+        </ul>
+        <script type="text/javascript" src="todo.js"></script>
+        
+    </body>
+        
+    
+</html>
